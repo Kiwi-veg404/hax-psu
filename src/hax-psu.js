@@ -198,7 +198,7 @@ export class HaxPsu extends DDD {
       }
 
       p[slot="entice"] {
-        padding: var(--ddd-spacing-2);
+        padding: var(--ddd-spacing-3);
       }
       
       .section.top {
@@ -322,7 +322,8 @@ export class HaxPsu extends DDD {
       }
 
       simple-cta {
-        margin-right: 16px;
+        margin-right: 8px;
+        padding: 0;
       }
 
       .square {
@@ -733,8 +734,8 @@ export class HaxPsu extends DDD {
         title: 'HAX Docs',
         type: "HAXcellence",
         description: 'Teaching with HAX',
-        url: 'https://oer.hax.psu.edu/bto108/sites/haxcellence/',
-        image: 'https://oer.hax.psu.edu/bto108/sites/haxcellence/ontology'
+        url: 'https://haxtheweb.org/',
+        image: 'https://haxtheweb.org/ontology'
       },
       {
         title: 'IST 256',
@@ -823,8 +824,9 @@ export class HaxPsu extends DDD {
           </div>
         </h1>
         <p slot="entice">Part of <strong>Penn State</strong>?</p>
-        <simple-cta hotline filled outlined slot="buttons" link="/login.php">Start</simple-cta>
-        <simple-cta hide-icon light slot="buttons" link="https://oer.hax.psu.edu/bto108/sites/haxcellence/welcome">Learn HAX</simple-cta>
+        <simple-cta slot="entice" id="psubtn" link="/login.php">Login</simple-cta>
+        <simple-cta hide-icon data-primary="13" slot="buttons" link="https://hax.cloud" target="_blank">Public Demo</simple-cta>
+        <simple-cta hide-icon data-primary="18" slot="buttons" link="https://haxtheweb.org/">Docs</simple-cta>
       </page-section>
       <page-section id="section-2" class="section" scroller scroller-label="By the numbers">
         <div class="section-style-1">
@@ -925,11 +927,11 @@ export class HaxPsu extends DDD {
       </page-section>
       <page-section id="section-8" class="section" preset="antihero" fold>
       <h2>Dig in to learn more about HAX</h2>
-        <p>Need more tutorials? Dig into the <a href="https://oer.hax.psu.edu/bto108/sites/haxcellence/welcome">full documentation and user blocks section</a> to learn more about how HAX can help you!</p>
+        <p>Need more tutorials? Dig into the <a href="https://haxtheweb.org/welcome">full documentation and user blocks section</a> to learn more about how HAX can help you!</p>
         <ul>
-          <li><a href="https://oer.hax.psu.edu/bto108/sites/haxcellence/tutorials/migrate-data-to-hax">Migrating content to HAX</a></li>
-          <li><a href="https://oer.hax.psu.edu/bto108/sites/haxcellence/tutorials/block-usage">Block tutorials</a></li>
-          <li><a href="https://oer.hax.psu.edu/bto108/sites/haxcellence/the-gallery-of-online-excellence">The Gallery of Online Excelence</a></li>
+          <li><a href="https://haxtheweb.org/tutorials/migrate-data-to-hax">Migrating content to HAX</a></li>
+          <li><a href="https://haxtheweb.org/tutorials/block-usage">Block tutorials</a></li>
+          <li><a href="https://haxtheweb.org/the-gallery-of-online-excellence">The Gallery of Online Excelence</a></li>
         </ul>
       </page-section>
         <page-section id="section-9" class="section">
