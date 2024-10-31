@@ -840,9 +840,9 @@ export class HaxPsu extends DDD {
             <simple-cta data-primary="8" data-accent="3" hotline filled outlined slot="buttons" link="/login.php">Get Started now!</simple-cta>
           </p>
           <h4 data-design-treatment="horz-25p" data-primary="18">Know terminal?</h4>
-          <p>
-            <code><strong>npm init @haxtheweb</strong></code>
-          </p>
+          <pre><code><strong>npm install --global @haxtheweb/create
+hax start
+</strong></code></pre>
         </div>
       </page-section>
       <page-section id="section-3" class="section">
